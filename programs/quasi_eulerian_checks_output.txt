@@ -1,0 +1,82 @@
+(G) configurations with det(I-Z) != 0 and t > 0: 179; up to renaming: 49; classes: 14
+  {1/4, 1/2}: 1 configuration(s)
+     x1.a, x1.b, x2.a, x2.b = ('s', 's', 's', 'x1'); boundary edges to (x1, x2) = (0, 1)  [-]
+  {1/3, 2/3}: 2 configuration(s)
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x2', 's', 'x1'); boundary edges to (x1, x2) = (0, 1)  [block]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x2', 'x1', 's'); boundary edges to (x1, x2) = (0, 1)  [-]
+  {1/2, 1/2}: 4 configuration(s)
+     x1.a, x1.b, x2.a, x2.b = ('s', 's', 's', 's'); boundary edges to (x1, x2) = (1, 1)  [block]
+     x1.a, x1.b, x2.a, x2.b = ('s', 's', 'x1', 'x1'); boundary edges to (x1, x2) = (0, 1)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x1', 's', 'x1'); boundary edges to (x1, x2) = (0, 1)  [block]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x1', 'x1', 's'); boundary edges to (x1, x2) = (0, 1)  [-]
+  {1/2, 3/4}: 1 configuration(s)
+     x1.a, x1.b, x2.a, x2.b = ('s', 's', 's', 'x1'); boundary edges to (x1, x2) = (1, 1)  [-]
+  {1/2, 1}: 6 configuration(s)
+     x1.a, x1.b, x2.a, x2.b = ('s', 's', 's', 'x1'); boundary edges to (x1, x2) = (0, 2)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 's', 's', 'x2'); boundary edges to (x1, x2) = (1, 1)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 's', 'x1', 'x1'); boundary edges to (x1, x2) = (1, 1)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 's', 'x1', 'x2'); boundary edges to (x1, x2) = (0, 1)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x1', 'x1', 'x1'); boundary edges to (x1, x2) = (0, 1)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x2', 'x1', 'x1'); boundary edges to (x1, x2) = (1, 0)  [-]
+  {1/2, 3/2}: 2 configuration(s)
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x1', 's', 'x1'); boundary edges to (x1, x2) = (1, 1)  [block]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x1', 'x1', 's'); boundary edges to (x1, x2) = (1, 1)  [-]
+  {1/2, 2}: 1 configuration(s)
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x1', 'x1', 'x1'); boundary edges to (x1, x2) = (1, 1)  [-]
+  {2/3, 4/3}: 2 configuration(s)
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x2', 's', 'x1'); boundary edges to (x1, x2) = (0, 2)  [block]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x2', 'x1', 's'); boundary edges to (x1, x2) = (0, 2)  [-]
+  {1, 1}: 13 configuration(s)
+     x1.a, x1.b, x2.a, x2.b = ('s', 's', 'x1', 'x1'); boundary edges to (x1, x2) = (0, 2)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 's', 'x1', 'x2'); boundary edges to (x1, x2) = (1, 1)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x1', 's', 'x1'); boundary edges to (x1, x2) = (0, 2)  [block]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x1', 's', 'x2'); boundary edges to (x1, x2) = (1, 1)  [block]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x1', 'x1', 's'); boundary edges to (x1, x2) = (0, 2)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x1', 'x1', 'x2'); boundary edges to (x1, x2) = (0, 1)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x1', 'x2', 's'); boundary edges to (x1, x2) = (1, 1)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x1', 'x2', 'x1'); boundary edges to (x1, x2) = (0, 1)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x2', 's', 'x1'); boundary edges to (x1, x2) = (1, 1)  [block]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x2', 'x1', 's'); boundary edges to (x1, x2) = (1, 1)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x2', 'x1', 'x1'); boundary edges to (x1, x2) = (0, 1)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x2', 'x1', 'x2'); boundary edges to (x1, x2) = (1, 0)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x2', 'x2', 'x1'); boundary edges to (x1, x2) = (1, 0)  [-]
+  {1, 2}: 7 configuration(s)
+     x1.a, x1.b, x2.a, x2.b = ('s', 's', 'x1', 'x2'); boundary edges to (x1, x2) = (0, 2)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x1', 'x1', 'x1'); boundary edges to (x1, x2) = (0, 2)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x1', 'x1', 'x2'); boundary edges to (x1, x2) = (1, 1)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x1', 'x2', 'x1'); boundary edges to (x1, x2) = (1, 1)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x2', 'x1', 'x1'); boundary edges to (x1, x2) = (2, 0)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x2', 'x1', 'x2'); boundary edges to (x1, x2) = (0, 1)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x2', 'x2', 'x1'); boundary edges to (x1, x2) = (0, 1)  [-]
+  {3/2, 2}: 1 configuration(s)
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x2', 'x1', 'x1'); boundary edges to (x1, x2) = (1, 1)  [-]
+  {2, 2}: 5 configuration(s)
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x1', 'x1', 'x2'); boundary edges to (x1, x2) = (0, 2)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x1', 'x2', 'x1'); boundary edges to (x1, x2) = (0, 2)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x2', 'x1', 'x1'); boundary edges to (x1, x2) = (0, 2)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x2', 'x1', 'x2'); boundary edges to (x1, x2) = (2, 0)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x2', 'x2', 'x1'); boundary edges to (x1, x2) = (2, 0)  [-]
+  {2, 3}: 2 configuration(s)
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x2', 'x1', 'x2'); boundary edges to (x1, x2) = (1, 1)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x2', 'x2', 'x1'); boundary edges to (x1, x2) = (1, 1)  [-]
+  {2, 4}: 2 configuration(s)
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x2', 'x1', 'x2'); boundary edges to (x1, x2) = (0, 2)  [-]
+     x1.a, x1.b, x2.a, x2.b = ('s', 'x2', 'x2', 'x1'); boundary edges to (x1, x2) = (0, 2)  [-]
+(E1) Example 3.5: alpha = (1,1,1,1,2) stationary at p = 1/2: True; witness of degree <= 2: None; rt = 5
+(E2) Example 3.6: witness of degree <= 1: None; residuals at x = 2: -1.1e-16, 2.2e-16
+(C) C_3: rt = 4 = (n-1)^2: True; witness E = {1..n-1}, s = 1, x = 0: True
+(C) C_4: rt = 9 = (n-1)^2: True; witness E = {1..n-1}, s = 1, x = 0: True
+(C) C_5: rt = 16 = (n-1)^2: True; witness E = {1..n-1}, s = 1, x = 0: True
+(C) C_6: rt = 25 = (n-1)^2: True; witness E = {1..n-1}, s = 1, x = 0: True
+(C) C_7: rt = 36 = (n-1)^2: True; witness E = {1..n-1}, s = 1, x = 0: True
+(C) C_8: rt = 49 = (n-1)^2: True; witness E = {1..n-1}, s = 1, x = 0: True
+(E3) Remark 4.3: witness E = {0,1,2}, s = 2, x = 3: True; alpha = (1,1,1,2) stationary: True; ext({0,1,2}) = 5; rt = 7
+(E3) C_4: ext({0,...,k-1}) for k = 2..3: [4, 4]
+(E3) C_5: ext({0,...,k-1}) for k = 2..4: [5, 5, 5]
+(E3) C_6: ext({0,...,k-1}) for k = 2..5: [6, 6, 6, 6]
+(E3) C_7: ext({0,...,k-1}) for k = 2..6: [7, 7, 7, 7, 7]
+(E3) C_8: ext({0,...,k-1}) for k = 2..7: [8, 8, 8, 8, 8, 8]
+(I) n = 4: members (labeled) of {2,2}, {2,3}, {2,4}: [76, 80, 36]; largest rt: [6, 8, 4]; (n-1)^2 = 9
+(I) n = 5: members (labeled) of {2,2}, {2,3}, {2,4}: [1480, 1120, 592]; largest rt: [13, 12, 9]; (n-1)^2 = 16
+(I) n = 6: members (labeled) of {2,2}, {2,3}, {2,4}: [40272, 33528, 16536]; largest rt: [19, 16, 11]; (n-1)^2 = 25
+ALL PASS
