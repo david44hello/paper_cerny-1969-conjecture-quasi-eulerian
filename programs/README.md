@@ -2,7 +2,7 @@
 
 Dave Goel. Copyright (C) Dave Goel 2026--now. All rights reserved.
 
-The paper: https://doi.org/10.5281/zenodo.23609639
+The paper: https://doi.org/10.5281/zenodo.23956693
 
 The proofs of Lemma 5.8 (with Table 1) and of Proposition 5.14 for 4 ≤ n ≤ 6 rest on the computation below; the other checks
 confirm the examples. Numbering as in the paper.
