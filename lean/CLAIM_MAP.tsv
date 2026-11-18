@@ -1,0 +1,223 @@
+# CLAIM_MAP — every printed claim of "The Cerny (1969) conjecture holds for quasi-Eulerian automata of degree one", version 4.40.
+# Author: Dave Goel. Copyright (C) Dave Goel 2026--now. All rights reserved.
+# version 0.61 - 20261118 — final text, Tables 2 and 3, and the proofs of Lemma 5.8, Proposition 5.12 and Corollary 5.15.
+# SHA-256 cebb6529b11a9c3573814b7b276cf2aa3d445e19376d33c055138ea66a29dbfc  quasi_eulerian_cerny_4.40_fd11aad2.tex
+# SHA-256 3fbbf99e090bf0e77ed8451cc2109f2355049a18b149250f1d076dbf6af5aa0b  tab_configs_float.tex
+# SHA-256 2af9e6bcf5db2751003487babef9c9fa9d179f0563130185de0abdb0dffd53db  tab_costs_float.tex
+# SHA-256 0e38a63c070ec5dec777185db37e62aba76e261f0fc55b6db61a6d8ae44dae14  proof_classes.tex
+# SHA-256 256430785bc5e889222a0ae63a5dcf49c6b6cdeea0a6be4a378c879fe30c5cf1  fig_c4_chain_float.tex
+# TEX = source lines of the frozen main file unless an included file is named.
+# KIND: NUM numbered result | PART part of one | TEXT running-text claim | STEP proof step | CAPTION | TABLE | DEF definition | NC commentary or cited context | SUPPORT proved supplementary fact.
+# PLAN: ROW dedicated statement | SAME existing statement | LINK coverage theorem | NC reason.
+ID	TEX	KIND	CLAIM	PLAN
+abs_berlinkov	51	NC	Berlinkov bounded rt of strongly connected ones by 2^d(n-d+1)(n-1)	NC another paper's bound
+abs_deg1	51	TEXT	every synchronizing quasi-Eulerian automaton of degree one has a reset word of length at most (n-1)^2	SAME thm_4_1
+abs_cerny	51	TEXT	the Cerny automata belong to the class and attain the bound	SAME thm_4_1_attained
+abs_const	51	TEXT	same bound when some positive, possibly irrational, letter weights have a positive stationary vector constant on all states but one	SAME thm_3_1
+abs_berl2	51	NC	here Berlinkov's bound was 2n(n-1)	NC another paper's bound
+abs_nonsc	51	TEXT	degree two: the bound holds for every automaton that is not strongly connected	SAME thm_5_1
+abs_block	51	TEXT	degree two: the bound holds when the two exceptional states form a block of a congruence	SAME prop_5_6
+abs_binary	51	TEXT	binary strongly connected degree two: the bound in 46 of the 49 configurations (up to renaming)	LINK count_46_of_49 (lem_5_8 + thm_5_9)
+abs_method	51	TEXT	A shortest word taking x out of K has length at most |K|, and one taking x into K has length at most n-|K|.	SAME lem_2_3_in, lem_2_3_out
+intro_conj	57-58	NC	The Černý conjecture states that a synchronizing automaton on n states has a reset word of length at most (n-1)^2.	NC definition (Defs rt) and the conjecture's statement, not a claim of the paper
+intro_defs	63-65	DEF	Finite nonempty state set and alphabet; automaton, edge, synchronizing and reset word.	DEF Automaton, act, IsReset, Synchronizing, rt
+intro_cerny_rt	65-67	TEXT	Cerny's automata C_n (a maps 0 to 1, fixes the rest; b is q+1 mod n) have rt(C_n) = (n-1)^2	ROW intro_rt_cerny (upper bound = thm_4_1; lower bound proved: Proofs/CernyLower.lean)
+intro_history	67-69	NC	the conjecture's history (talk 1969, print 1971, surveys)	NC history and attributions
+intro_bounds	69-71	NC	best known bounds are cubic (Pin, Frankl, Szykula, Shitov); Volkov's list	NC other papers' bounds
+intro_kari	72-74	NC	Kari's bound for Eulerian automata; Steinberg's pseudo-Eulerian extension; Berlinkov's relaxation	NC other papers' results as such; the case t = 1 the paper re-proves is thm_3_1_case_t1
+def_1_1	76-84	DEF	quasi-Eulerian of degree d; witness (E,s,p); exceptional states; admissible weights	DEF QEWitness, QuasiEulerian, QEWitness.X
+intro_cerny_qe1	86	TEXT	the Cerny automata are quasi-Eulerian of degree one	SAME thm_4_1_cn_witness
+intro_best	86-87	TEXT	so (n-1)^2 is the best possible bound for this family	SAME thm_4_1_attained
+intro_berl_bound	87-88	NC	Berlinkov's bound 2^d(n-d+1)(n-1) for strongly connected ones; where strong connectivity is assumed	NC another paper's bound
+intro_M	91-93	DEF	M = sum p_b M_b row-stochastic; stationary vector	DEF M, IsStationary
+intro_statd	93-94	TEXT	for a strongly connected automaton the stationary vector can be taken = 1 on E and positive on X	LINK intro_statd (from lem_5_5)
+intro_class_cfg	94-97	DEF	class {t1,t2}; configuration of a binary degree-two witness	DEF (Defs/Binary) Config, configOf, Config.t, Config.cls
+intro_half	97-98	TEXT	For strongly connected binary degree-two automata, the class uses weights (1/2,1/2), which are admissible.	DEF Config.cls; SAME lem_5_7_a, lem_5_7_b
+intro_49	98	TEXT	there are 49 possible configurations up to renaming, in 14 classes	SAME lem_5_8
+intro_block_def	99-100	DEF	the two exceptional states form a block of a congruence	DEF IsBlockPair
+tbl_r1	113-114	TABLE	degree one: rt <= (n-1)^2 attained by C_n (new result, right); Berlinkov's 2n(n-1), open per Volkov (prior work, left)	SAME thm_4_1, thm_4_1_attained; left column NC (history)
+tbl_r2	116-117	TABLE	positive stationary vector constant off one state, real weights: rt <= (n-1)^2 (new result, right); Berlinkov 2n(n-1) (prior work, left)	SAME thm_3_1; left NC (another paper's result)
+tbl_r3	119-120	TABLE	degree two, not strongly connected: rt <= (n-1)^2 (new result, right); Berlinkov 4(n-1)^2 (prior work, left); [Vol26, D3] records it without SC	SAME thm_5_1; left NC (another paper's result); the Vol26 attribution NC (an attribution)
+tbl_r4	122-125	TABLE	degree two binary strongly connected: 46 of 49 configurations, every configuration of 12 of the 14 classes (new result, right); previous results (prior work, left)	LINK count_46_of_49, count_12_classes; left NC (history)
+bul_deg1	131-133	TEXT	bullet 1: the conjecture for degree one; attained by C_n	SAME thm_4_1, thm_4_1_attained
+bul_hist	133	NC	Berlinkov previously proved 2n(n-1) for strongly connected degree-one automata.	NC history
+bul_nonsc	135	TEXT	if not strongly connected, then every letter fixes the exceptional state or E is closed, and rt <= 1+(n-2)(n-1)	ROW intro_deg1_nonsc
+bul_const	136-138	TEXT	bullet 2: Theorem 3.1 for real (not necessarily rational) weights	SAME thm_3_1
+bul_contains	138-139	TEXT	the class of Thm 3.1 contains every strongly connected synchronizing degree-one automaton, with alpha = 1 on E (Lemma 4.2), positive	ROW intro_deg1_in_thm31
+bul_others	139	TEXT	and others (Example 3.5)	SAME ex_3_5_in_thm31, ex_3_5_not_qe12
+bul_berl_obs	139	NC	Berlinkov observed the vector is constant on E	NC attribution
+bul_deg2	141-146	TEXT	bullet 3: degree two results; 12 of 14 classes fully covered	SAME thm_5_1, prop_5_6, thm_5_9; LINK count_12_classes
+bul_computer	146-148	NC	For the three integer classes and n <= 6, the text uses KKS16 for all binary automata with at most 12 states.	NC published computation; Lean independently proves the bound in prop_5_14.
+bul_rem515	148-149	TEXT	for n >= 7, Corollary 5.15 gives the bound in the integer classes {2,k} over every alphabet	SAME rem_5_15_2k
+bul_hist2	150	NC	Previous bound for strongly connected automata; Volkov lists the bound for the family without this hypothesis.	NC history
+zhu	155-156	NC	Zhu announced a proof for one-cluster automata	NC another paper
+incomparable	157; 561	TEXT	The family of Theorem 4.1 and the one-cluster automata are incomparable (Remark 4.4).	ROW intro_incomparable
+ex35_onecluster	561	TEXT	the automaton of Example 3.5 is one-cluster (a has the single cycle 0->2->3->4->0) but not quasi-Eulerian of degree one	ROW ex_3_5_one_cluster (+ ex_3_5_not_qe12)
+ex4_qe1	561	TEXT	a=(0,2,1,0), b=(1,3,2,0) is synchronizing and quasi-Eulerian of degree one with X={3}, s=0 (both edges from 3 end at 0; 1 and 2 entered once by each letter)	ROW intro_ex4_qe1
+ex4_reset	561	TEXT	the word abbabba resets it	ROW intro_ex4_reset
+ex4_cycles	561	TEXT	each letter has two cycles: a has (0),(1 2); b has (0 1 3),(2)	ROW intro_ex4_cycles
+fig1_left	167-169	CAPTION	left: a witness of degree two; edges from E may enter X	NC picture of Definition 1.1, no further claim
+fig1_right	169-170	CAPTION	right: C_4 with the witness of Theorem 4.1: x=0, s=1, E={1,2,3}	SAME thm_4_1_cn_witness (n = 4)
+fig2_cap	176-181	CAPTION	49 configurations in rows by class; previously only {1,1} had the square bound for all n. Green squares have the bound for all n; grey squares mark the three excluded configurations with the bound known up to 12 states.	SAME lem_5_8, thm_5_9; LINK count_46_of_49; known-before and Berlinkov parts NC (other papers' results); square counts per class checked against fig_configs.tex by script (AUDIT_NOTES)
+meth_fig3	197	TEXT	Figure 3 shows these steps for the Cerny automaton C_4, where every bound is attained	ROW fig3_c4_chain
+fig3_caption	fig_c4_chain_float.tex:8-15	CAPTION	The drawn chain of C_4 has the reset word abbb abbb a of length 9; the orbit lemma bounds marked by the braces are attained at both extensions; each costs exactly n=4. The exceptional state is x=0 with t<1.	ROW fig3_c4_chain; t < 1 = SAME rem_4_3_cn_zyt; the orbit-lemma route and "at most n" = SAME prop_3_3
+fig3_grey	fig_c4_chain_float.tex:8-9	NC	Members of a set are grey.	NC picture convention, no claim
+rem43_ptr	556	NC	Figure 3 shows the chain for n = 4	NC pointer to a figure (its claims are fig3_c4_chain)
+meth_extension	186	NC	all proofs use the extension method	NC route words
+meth_step	186-191	TEXT	Kari's step with letter weights finds in at most n-1 letters a word that raises the preimage weight	SAME lem_2_2_last
+meth_enlarge_or_move	191-192	TEXT	when alpha is constant off one state x, a raising word either enlarges the set or moves x across it	ROW meth_raise_enlarge_or_move
+meth_orbit	192-194	TEXT	a shortest word moving x across K has length at most |K| (x in K) or n-|K| (x not in K)	SAME lem_2_3_in, lem_2_3_out
+meth_caseA	194-195	TEXT	when 0<t<2, t != 1, a raising word never shrinks the set, and keeps its size only by moving x across it	SAME lem_3_2_c
+meth_move_changes	195	TEXT	every word that moves x across a set changes alpha (t-1 not an integer)	ROW meth_move_changes
+meth_pair_n	195-196	TEXT	a move of x and the step after it cost at most |K| and n-|K|, at most n together	SAME prop_3_3
+method_pair_order	194-196	STEP	If t<1 the two cost bounds are |K| then n-|K|; if t>1 the order is reversed.	ROW method_pair_order
+meth_total	196-197	TEXT	after a merging first letter, at most n-2 enlargements of at most n letters give 1+(n-2)n = (n-1)^2	SAME thm_3_1_case_A
+meth_nonint	199-201	TEXT	t>2 non-integer: a lose move and the later gain move cost at most n-2 together; the move out enlarges the set by more than t-1 states; the set does not shrink before the move back; a potential count gives (n-1)^2	ROW thm_3_1_nonint_pair; ROW meth_nonint_steps; SAME thm_3_1_case_nonint
+meth_int	201-202	TEXT	t an integer: every step raises alpha by >= 1, at most n-1 steps of <= n-1 letters lead from {x} to Q	SAME thm_3_1_case_int (stated for every positive integer t)
+meth_deg1	203-204	TEXT	Thm 4.1 follows: Lemma 4.2 gives the vector when strongly connected; Kari's argument covers the rest	SAME thm_4_1_case_sc, intro_deg1_nonsc
+meth_nonsc	206-208	TEXT	degree two not SC: reduce to the unique minimal closed set C: C consists of exceptional states, or A|_C is degree one or has stationary vector 1	SAME rem_5_4_a (d = 2)
+meth_push	208-209	TEXT	At most |R|^2 letters move the remaining states into C; |R|^2+(n-1-|R|)^2 <= (n-1)^2.	ROW lem_5_3_push_word; ROW arith_r_sq
+meth_block	209-211	TEXT	strongly connected with a block: the quotient automaton satisfies the hypothesis of Theorem 3.1	ROW prop_5_6_quot_hyp
+meth_good	211-213	TEXT	The configuration and pattern determine whether alpha(Kc^-1)-alpha(K) is noninteger for some letter c.	SAME sec54_alpha_formula, sec54_good_cost1, sec54_change_depends_on_pattern
+meth_cost	211-212	DEF	Cost and pattern of a set.	DEF cost, pattern
+meth_joint	214-215	TEXT	a joint orbit of x1,x2,s bounds the cost of a set containing all three or none	SAME lem_5_10_a, lem_5_10_b
+meth_values	215	NC	the values of alpha limit how many sets of each size occur in a chain	NC route words (the precise counts are steps of Props 5.11-5.13)
+meth_tier	215-218	TEXT	tier lemma: for 2<=j<=n at most 2^j-2 sets need a word of length >= n-j+1; proof counts 0/1 vectors as Szykula	SAME lem_2_4; attribution NC
+org	221-223	NC	organization of the paper	NC route words
+sec2_act_append	228	TEXT	q.(uv) = (q.u).v	ROW sec2_act_append
+sec2_pre_append	229-230	TEXT	K(uv)^{-1} = (K v^{-1}) u^{-1}	ROW sec2_pre_append
+sec2_closed_def	231-232	DEF	closed set; strongly connected	DEF IsClosed, StronglyConnected
+sec2_ext_method	232-235	TEXT	K_{j+1} = K_j w_j^{-1}, K_J = Q imply K_J = K_0(w_{J-1}...w_0)^{-1}, Q.(w_{J-1}...w_0) in K_0; singleton K_0: reset word; K_0 = {q}c^{-1}: w_{J-1}...w_0 c resets	ROW sec2_ext_method
+sec2_ext_def	235-236	DEF	ext(K)	DEF ext
+sec2_Mw	238-240	TEXT	M_{uv} = M_u M_v, M_w 1 = 1, M_w 1_K = 1_(K w^{-1})	ROW sec2_Mw_mul, sec2_Mw_one, sec2_Mw_ind
+sec2_wtMw	240	TEXT	beta^T M_w 1_K = beta(K w^{-1})	ROW sec2_wt_Mw
+sec2_weights	244-247	DEF	letter weights (need not be rational); M; stationary vector	DEF IsLetterWeights, M, IsStationary
+sec2_stochastic	245	TEXT	M is row-stochastic	ROW sec2_M_stochastic
+eq_2_1	248-250	TEXT	sum_b p_b alpha(T b^{-1}) = alpha^T M 1_T = alpha(T) for every T (alpha stationary)	ROW eq_2_1
+sec2_inweights	251-254	TEXT	in-weights add up to n; alpha = 1 is stationary iff every in-weight is one	ROW sec2_inW_sum, sec2_one_stationary_iff
+lem_2_1	256-259	NUM	Strong connectivity: synchronizing + stationary alpha > 0 for some weights => strongly connected	ROW lem_2_1
+lem_2_2_a	268-272	PART	extension step (a): m exists and 1 <= m <= n-1	ROW lem_2_2_a
+lem_2_2_b	273-274	PART	(b): averaging hypothesis on T = K v^{-1}, |v| = m-1 gives a word of length m with beta(K w^{-1}) > beta(K)	ROW lem_2_2_b
+lem_2_2_last	276-278	PART	stationary alpha for some letter weights: a word of length <= n-1 raises alpha; least raising length = least changing length	ROW lem_2_2_last
+sec2_cost	303-306	TEXT	alpha > 0, K nonempty proper: 1 <= m(K) <= n-1 when synchronizing; alpha stationary: a word of length m(K) raises alpha	ROW sec2_cost_bounds
+lem_2_3	309-315	NUM	orbit lemma: esc_x(K) finite => <= |K| (x in K), <= n-|K| (x not in K); strongly connected, K nonempty proper => finite	ROW lem_2_3_in, lem_2_3_out, lem_2_3_fin
+sec2_mem_pre	311	TEXT	[x in K w^{-1}] = [x.w in K]	ROW sec2_mem_pre
+lem_2_4	327-331	NUM	tier lemma: for 2<=j<=n at most 2^j-2 nonempty proper S have m(S) >= n-j+1; at most two have m(S) = n-1, at most six have m(S) >= n-2	ROW lem_2_4, lem_2_4_two, lem_2_4_six
+eq_2_2	336-341	STEP	telescope: alpha^T M_w - alpha^T = sum_i delta_{c_i} M_{c_{i+1}...c_l}; delta_c 1 = 0	ROW eq_2_2
+lem_2_4_i	343-346	STEP	(i): m(S) >= k+1 iff lambda 1_S = 0 for every lambda in D_k	ROW lem_2_4_i
+lem_2_4_ii	348-355	STEP	(ii): dim D_k >= min(k, n-1)	ROW lem_2_4_ii
+lem_2_4_iii	357-361	STEP	(iii): a subspace of dimension rho contains at most 2^rho 0/1 vectors; the count of sets	ROW lem_2_4_zeroOne (general fact); SAME lem_2_4 (conclusion)
+rem_2_5_direct	367-369	TEXT	U_{k+1} = R alpha^T (+) D_k, the sum direct (entry sums 0, alpha(Q) != 0)	ROW rem_2_5_direct
+rem_2_5_attr	364-374	NC	Kari's chain, Berlinkov's chain, Szykula's idea and Szykula's Eulerian bound; weights play no role in Lemma 2.4	NC attributions and another paper's bound; "no weights" = lem_2_4 has no weight hypothesis
+thm_3_1	378-382	NUM	For some letter weights the weighted matrix has a stationary vector positive at every state and constant on the complement of x; a synchronizing n-state automaton, n >= 2, has rt <= (n-1)^2.	ROW thm_3_1
+sec3_sc	385-386	TEXT	under the hypothesis, A is strongly connected (Lemma 2.1)	SAME lem_2_1
+sec3_formula	386-387	TEXT	alpha(K) = |K| + g [x in K], alpha(Q) = n-1+t (alpha scaled to 1 off x)	ROW sec3_alpha_formula
+sec3_cost	388-389	TEXT	for this alpha, Lemma 2.2 with beta = alpha: m(K) <= n-1 and some word of length m(K) raises alpha	SAME sec2_cost_bounds
+lem_3_2	391-401	NUM	levels (a) difference formula; (b) g not integer: equal values iff same size and same side; m(K) characterization; m(K) <= esc(K); equality case; (c) 0<t<2, t != 1	ROW lem_3_2_a, lem_3_2_b, lem_3_2_c
+sec3_cheap	408-410	TEXT	a raising word that keeps the size of an expensive set moves x across it and makes it cheap; a raising word always enlarges a cheap set	ROW sec3_expensive_cheap
+prop_3_3	412-414	NUM	0<t<2, t != 1: ext(K) <= n for nonempty proper K, ext(K) <= n-1 if K is cheap	ROW prop_3_3
+thm31_merging	427	STEP	synchronizing, n >= 2: some letter is merging, |{q} c^{-1}| >= 2	ROW thm_3_1_merging
+thm31_t1	429-431	STEP	case t = 1: ext(K) <= n-1 for every nonempty proper K; rt <= 1+(n-2)(n-1) (Kari, Steinberg)	ROW thm_3_1_case_t1; attribution NC
+thm31_A	433-434	STEP	case 0<t<2, t != 1: rt <= 1+(n-2)n	ROW thm_3_1_case_A
+thm31_int	436-439	STEP	case t >= 2 an integer: from {x}, at most n-1 steps of <= n-1 letters: rt <= (n-1)^2	ROW thm_3_1_case_int (every positive integer t; covers 201-202)
+thm31_nonint	441-457	STEP	case t > 2 not an integer: process, keep/free/lose/gain, Phi, pairing: rt <= (n-1)^2	ROW thm_3_1_case_nonint, thm_3_1_nonint_pair (the pair costs <= n-1-h <= n-2)
+thm31_cover	459	NC	these cases cover every t > 0; rationality of p or t is not used	NC route words (rows are over the reals)
+rem_3_4_L	463-465	TEXT	stationary vector rational, integer t: Λ = n-1+t (lcm of denominators of alpha/alpha(Q))	ROW rem_3_4_L
+rem_3_4_vals	465-466	TEXT	1+(n-1)(Λ-2) = 1+(n-1)(n+t-3): Kari's bound at t=1, (n-1)^2+1 at t=2, more for larger t	ROW rem_3_4_vals
+rem_3_4_level	466-468	TEXT	Berlinkov's level count: Λ alpha/alpha(Q) is integer on sets, a merging preimage has value >= 2, Q has value Λ, each step of <= n-1 letters raises the value by >= 1	ROW rem_3_4_level_count (rt <= 1+(n-1)(L-2) from these facts)
+rem_3_4_route	468-470	NC	the integer case above is this level count started from {x}	NC route words
+rem_3_4_gp	470-472	NC	Gusev-Pribavkina's bound W^2-3W+3	NC another paper's bound
+rem_3_4_wL	472	TEXT	their Theorem 16 is Berlinkov's Corollary 1, as W = Λ	ROW rem_3_4_w_eq_L
+rem_3_4_w	472-474	TEXT	t = i/j in lowest terms: W = (n-1)j+i; W = n only for t = 1; otherwise W >= n+1 and W^2-3W+3 >= n^2-n+1 > (n-1)^2	ROW rem_3_4_w
+rem_3_4_irr	474	NC	for irrational t their bound does not apply	NC remark on another paper's scope
+ex_3_5	477-489	NUM	Example 3.5: a=(2,4,3,4,0), b=(4,2,4,3,1); alpha=(1,1,1,1,2) stationary for (1/2,1/2) (in-edge facts); Thm 3.1 applies with x=4, t=2; not quasi-Eulerian of degree one or two; Q.(abaab) = {4}	ROW ex_3_5_stationary, ex_3_5_in_thm31, ex_3_5_inedges, ex_3_5_not_qe12, ex_3_5_rt
+ex35_threshold	Example 3.5	SUPPORT	The exact reset threshold is 5; text 4.40 no longer prints this.	ROW ex_3_5_rt (the image of abaab remains printed at 485)
+ex_3_6	491-497	NUM	Example 3.6: a constant 0, b=(1,2,1); vector 1 off 2 and t at 2 stationary iff p_a(2+t)=1, p_b(1+t)=1 iff t^2+t-1=0, t=(sqrt5-1)/2, p_a=(3-sqrt5)/2; x=1: t=sqrt2, p_b=1/sqrt2; x=0: no weights; every x needs irrational weights; trivially synchronizing	ROW ex_3_6_x2, ex_3_6_x1, ex_3_6_x0, ex_3_6_irrational, ex_3_6_sync
+ex_3_6_nc	497	NC	Theorem 3.1 needs no rationality	NC route words
+thm_4_1	501-504	NUM	every synchronizing degree-one automaton with n >= 2: rt <= (n-1)^2; C_n attain the bound	ROW thm_4_1, thm_4_1_attained
+sec4_zy	506-510	TEXT	edges leaving x end at x or s; in_p(x) = y+z; in_p(s) = 2-y-z	ROW sec4_inW_xs
+lem_4_2	512-514	NUM	z < 1: alpha = 1 on E, alpha_x = y/(1-z) is stationary	ROW lem_4_2
+thm41_sc	523-527	STEP	case z<1, y>0: rt <= (n-1)^2; every automaton of this case is SC; SC implies z<1, y>0; the other cases are exactly the non-SC ones	ROW thm_4_1_case_sc
+thm41_z1	529-535	STEP	case z = 1: y > 0; in_p(x) = 1+y, in_p(s) = 1-y; sum_b p_b|T b^{-1}| = |T| + y(1-[s in T]) >= |T| for x in T; rt <= 1+(n-2)(n-1)	ROW thm_4_1_case_z1
+thm41_y0	537-543	STEP	case z<1, y=0: E closed; restriction has in-weights one; n=2: c resets; n>=3: rt(B) <= 1+(n-3)(n-2), rt(A) <= 2+(n-3)(n-2) <= 1+(n-2)(n-1) <= (n-1)^2	ROW thm_4_1_case_y0
+thm41_cn	545-547	STEP	C_n with E={1..n-1}, s=1, x=0 and any weights is a witness of degree one; Cerny proved rt(C_n) = (n-1)^2	ROW thm_4_1_cn_witness; the rt part = intro_rt_cerny (PROVED)
+rem_4_3	550-561	NUM	Remark 4.3 (precise parts): C_n: z=0, y=t=p_b in (0,1); bound 1+(n-2)n attained; every extension chain from {0,1} with |w_j| = ext(K_j): J = n-2 steps of length exactly n adding one state; t=2 example: ext({0,1,2}) = 5 (aabab, Q.(aabab)={1,2}), Q.(aababaa)={0}	ROW rem_4_3_cn_zyt, rem_4_3_attained, rem_4_3_K0, rem_4_3_chain, rem_4_3_t2_example, rem_4_3_not_extend
+rem43_enlarges	558	STEP	A word enlarges {0,1,2} iff it sends Q into {0,1,2}.	ROW rem_4_3_enlarges_iff
+rem43_images	559	STEP	Every image Q.w for |w| <= 4 is one of the six displayed sets; each contains state 3.	ROW rem_4_3_images
+rem43_threshold	Remark 4.3	SUPPORT	The exact reset threshold is 7; text 4.40 no longer prints this.	ROW rem_4_3_t2_example (its other conclusions remain printed)
+rem_4_3_nc	556-557	NC	The proof uses the level count of the integer case.	NC proof commentary
+thm_5_1	568-571	NUM	n >= 3, synchronizing, quasi-Eulerian of degree at most two, not strongly connected: rt <= (n-1)^2	ROW thm_5_1
+sec5_outweight	574	TEXT	every state has out-weight 1	ROW sec2_outweight
+sec5_minclosed	574-576	TEXT	no two disjoint nonempty closed sets; intersections of closed sets are closed; exactly one minimal nonempty closed set C	ROW sec5_unique_min_closed
+sec5_restrict	576-578	TEXT	A|_C is strongly connected and synchronizing; every state reaches C; R = Q\C nonempty when A is not SC	ROW sec5_restrict
+lem_5_2	580-582	NUM	weight count: T in E\{s} nonempty, every edge ending in T starts in T => T closed	ROW lem_5_2
+lem_5_3	590-592	NUM	push: rt(A) <= |R|^2 + rt(A|_C)	ROW lem_5_3 (for every nonempty closed C: stronger than printed)
+lem_5_3_steps	595-599	STEP	shortest u with q.u in C has |u| <= |R|; |S.u \ C| <= |S \ C| - 1; a word of length <= |R|^2 maps Q into C	ROW lem_5_3_push_word
+thm51_sC	604-614	STEP	case s in C: R in X; subcases l=1, degree one, all-ones vector; rt <= r^2+(n-1-r)^2 <= (n-1)^2 since r(2n-2-r) >= r^2	SAME thm_5_1 (route); ROW arith_r_sq
+thm51_sR	616-620	STEP	case s in R: C in X; |C| = 1 => rt <= (n-1)^2; C = X => rt(A|_C) = 1, rt <= (n-2)^2+1	SAME thm_5_1 (route); ROW sec5_two_state_rt
+rem_5_4	623-631	NUM	Remark 5.4: any degree d, not SC: C in X, or R in X and A|_C (SC, n-|R| states) is degree d-|R| or has stationary vector 1; rt <= |R|^2 + rt(A|_C); reduction to Thm 3.1, SC degree <= d-1 and <= d states; for d <= 2 all known, giving Thm 5.1	ROW rem_5_4_a, rem_5_4_reduction, rem_5_4_d2; SAME arith_r_sq (1 <= r <= n-1)
+rem_5_4_nc	624	NC	the first steps of both cases do not use d = 2	NC commentary
+sec52_attr	635-636	NC	Berlinkov observed the vector is constant on E	NC attribution
+lem_5_5	638-643	NUM	SC, degree d >= 1: for the row vector y of weighted incoming edges, I-Z is invertible and alpha, equal to 1 on E and to t=y(I-Z)^(-1) on X, is stationary and positive.	ROW lem_5_5 (route without the Perron-Frobenius theorem: AUDIT_NOTES (b) 1)
+lem_5_5_unique	653-654	STEP	SC, p > 0: M irreducible; its stationary vectors are the multiples of one positive vector	ROW lem_5_5_unique (general fact the proof states; Lean route differs)
+prop_5_6	659-663	NUM	degree two, X={x1,x2} a block: rt <= (n-1)^2; SC => rt <= (n-2)^2+1	ROW prop_5_6, prop_5_6_sc
+prop56_steps	666-676	STEP	partition into X and singletons is a congruence; quotient synchronizing; some c0 merges x1,x2; rt(A) <= rt(A')+1; lumped vector stationary, positive, constant off one state	ROW prop_5_6_quot_hyp (covers 209-211); rest SAME prop_5_6_sc (route)
+sec54_small	682-683	TEXT	for n <= 3 every synchronizing automaton has rt <= (n^3-n)/6 <= (n-1)^2	ROW sec54_small_n (every alphabet; proved, no axiom: pair merging by the orbit lemma)
+lem_5_7	685-692	NUM	binary degree two: (a) (1/2,1/2) admissible; (b) exactly two boundary edges; t depends only on the configuration; Z_ij = |{c: x_i.c = x_j}|/2, y_i = nu_i/2	ROW lem_5_7_a, lem_5_7_b
+sec54_405	712-714	TEXT	3^4*5 = 405 choices (nu1+nu2 <= 2, (nu1,nu2) != (0,0) since otherwise E closed and not SC)	ROW sec54_405, sec54_nu_ne_00
+lem_5_7_edge_count	700-705	STEP	The ordinary states number n−3. Counting edges with N targets of type (k,0) gives (n−3−N)+Nk+2 = n−1+N(k−1) ≥ n+1 when N≥1 and k≥3.	ROW lem_5_7_edge_count
+lem_5_8	716-719	NUM	179 of 405 have det(I-Z) != 0 and t1,t2 > 0; 49 up to renaming; classes exactly the 14 of Table 1	ROW lem_5_8 (kernel decide)
+lem58_formula	proof_classes.tex:4-9	STEP	G is the target-count matrix, G=2Z; Delta=det(2I-G)=4 det(I-Z). Its nonnegativity and zeros, the two rational coordinate formulas for t, and the two positivity tests.	ROW lem_5_8_determinants, lem_5_8_delta
+lem58_counts	proof_classes.tex:8-10	STEP	81 target choices, 26 closed, 55 nonsingular. Each positive cross-entry occurs 31 times among the 55. The five pairs contribute 55,31,31,31,31; total 179.	ROW lem_5_8_target_counts
+lem58_action	proof_classes.tex:9-11	STEP	Swapping states and letters generates an action of order four that preserves validity and class.	ROW lem_5_8_renaming_action; SAME lem_5_8
+table2	tab_configs_float.tex:10-23; proof_classes.tex:9-12	TABLE	49 listed representatives, their printed classes and complete distinct orbits. Orbit sizes 1,2,4 occur 1,7,41 times.	ROW table_2_configs
+sec54_in49	721-722	TEXT	the configuration of every degree-two witness of a SC binary automaton is among these 49	ROW sec54_config_valid
+table_1	726-745	TABLE	the 14 classes, configuration counts (13; 6,7; 1,1; 2,2; 1,1; 5,2,2; 4; 2), block counts, the result giving (n-1)^2	ROW table_1 (kernel decide) + SAME thm_5_9 (bound column)
+thm_5_9	747-753	NUM	Binary SC synchronizing degree two, some witness has a configuration other than the three listed, up to renaming: rt <= (n-1)^2.	ROW thm_5_9
+sec54_blocks	760-762	TEXT	block configurations outside the classes with some t_i = 1: the five listed	ROW sec54_block_list (kernel decide)
+thm59_six	762-764	STEP	the remaining six configurations are those of Props 5.11-5.13; nine in the integer classes	ROW thm_5_9_remaining_six (kernel decide)
+count46	51,122,143	TEXT	(derived) 49 - 3 = 46 configurations covered; the 3 open ones lie in 2 classes, so 12 classes fully covered	ROW count_46_of_49, count_12_classes
+sec54_alpha	768-771	TEXT	weights (1/2,1/2), alpha of Lemma 5.5; alpha(K) = |K| + g1 e1 + g2 e2	ROW sec54_alpha_formula
+sec54_cost	772-773	TEXT	for the alpha of Section 5.4, by Lemma 2.2: m(K) <= n-1 and some word of length m(K) raises alpha	SAME sec2_cost_bounds
+sec54_process	776-781	TEXT	the extension process: values increase strictly, no set twice, all nonempty, reaches Q, one set per value, words map Q into K0, rt <= sum m(K) (+1)	ROW sec54_process_exists, sec54_process_props
+sec54_pattern	783-787	TEXT	e_i(K c^{-1}) = [x_i.c in K]; change of (e1,e2) depends only on the pattern; good (for some, equivalently every, set); good => m(K) = 1; aligned patterns are never good	ROW sec54_change_depends_on_pattern, sec54_good_cost1, sec54_aligned_not_good
+lem_5_10	789-793	NUM	joint orbit: P(K)=(1,1,1): esc_s <= k-2, x1.w, x2.w in K for |w| <= esc_s, (1,1,0) good => m <= k-1; P(K)=(0,0,0): esc_s <= n-k-2, (0,0,1) good => m <= n-k-1	ROW lem_5_10_a, lem_5_10_b
+lem510_compl	801-803	STEP	(1,1,0) is good because (0,0,1) is: complement flips the sign of every change	ROW lem_5_10_compl_good
+prop_5_11	806-808	NUM	If the witness has class {1/2,3/4} or {1/4,1/2}, then rt <= 1+(n-2)n.	ROW prop_5_11
+prop511_cfg	812-815	STEP	one configuration each; after renaming x1.a=x1.b=x2.a=s, x2.b=x1; boundary edges; (t1,t2); g's not integer	ROW prop_5_11_config (kernel decide)
+prop511_good	817-819	STEP	every pattern that is not aligned is good	ROW prop_5_11_good
+prop511_remark	826	TEXT	(a merging letter alone would not do: {s}a^{-1} may be X, with alpha(X) = 3/4 < 1)	ROW prop_5_11_merging_remark (an explicit automaton of the class)
+prop_5_12	835-841	NUM	configuration (s,x2,x1,s;0,1) or (s,x2,x1,s;0,2): rt <= n^2-3n+5 <= (n-1)^2	ROW prop_5_12
+prop512_facts	844-849	STEP	g values; every non-aligned pattern good; g1+g2 integer; non-integer value => cost 1	ROW prop_5_12_config, prop_5_12_good; the cost-1 sentence = SAME sec54_good_cost1
+prop512_sum	853-854	STEP	sum_{j=1}^{l} max(j, l-j) <= (l-1)^2 + l	ROW prop_5_12_sum
+prop512_levels	851-855	STEP	In the class {2/3,4/3}, mixed exceptional parts have at most n-1 states. The noninteger values in [5/3,n) are exactly k ± 1/3 for 2 <= k <= n-1; their number is 2(n-2).	ROW prop_5_12_levels
+prop512_first_levels	857-863	STEP	In the class {1/3,2/3} there are at most 2(n-2) noninteger values of alpha in [1,n-1).	ROW prop_5_12_first_levels
+prop512_sharp	851-855	STEP	For configuration (s,x2,x1,s;0,2) up to renaming, the reset threshold is at most 1+(n-3)^2+3(n-2)=n^2-3n+4.	ROW prop_5_12_sharp; Props511.arith_B_exact identifies the final sum.
+prop_5_13	866-868	NUM	If the witness has class {1/2,2} or {3/2,2}, then rt <= n^2-3n+5 <= (n-1)^2.	ROW prop_5_13
+prop513_cfg	871-876	STEP	One configuration in each class; x2.a=x2.b=x1, one boundary edge ends at each x_i, x1.a=s and x1.b=x1 or x2. Lean uses u=x2, v=x1.	ROW prop_5_13_config (kernel decide)
+prop513_i_iii	878-886	STEP	(i) m(K) <= esc_u(K); (ii) pattern good iff e_u != e_v; (iii) e_u = e_v: esc_u = 1+esc_v, ..., m(K) <= 2+esc_s(K) <= |K| or n-|K| (Lean u=x2, v=x1).	ROW prop_5_13_steps
+table3_half	tab_costs_float.tex:12-15	TABLE	Value ranges, sizes, exceptional parts and aligned and unaligned costs for {1/2,2}, including N >= 3 for an aligned set of size N containing both exceptional states.	ROW table_3_half; SAME prop_5_13_steps for aligned costs
+table3_three_halves	tab_costs_float.tex:17-20	TABLE	Value ranges, sizes, exceptional parts and aligned and unaligned costs for {3/2,2}, including N >= 4 for an aligned set of size N-1 containing both exceptional states.	ROW table_3_three_halves; SAME prop_5_13_steps for aligned costs
+prop513_half	890-898	STEP	class {1/2,2}: rt <= n^2-3n+4 for every n >= 4 (8 for n=4, 14 for n=5)	ROW prop_5_13_half
+prop_5_13_missing_pair	896	STEP	A set missing both exceptional states contains at most n−2 states.	ROW prop_5_13_missing_pair
+prop513_32	900-909	STEP	class {3/2,2}: rt <= n^2-3n+5 for every n >= 4 (9 for n=4, 15 for n=5)	SAME prop_5_13
+prop_5_14	912-916	NUM	binary SC synchronizing n >= 4, class {2,2},{2,3},{2,4}: rt <= (n-1)^2; rt <= n^2-3n+8 if n >= 7	ROW prop_5_14, prop_5_14_big
+prop514_big	922-930	STEP	n >= 7: sorted costs against kappa_i; 2(n-1)+4(n-2)+(n-6)(n-3) = n^2-3n+8 <= (n-1)^2	SAME prop_5_14_big (route)
+prop514_small	Proposition 5.14	SUPPORT	Largest reset thresholds 8, 13, 19 at n=4,5,6; text 4.40 no longer prints this.	ROW prop_5_14_max; the auxiliary entry count is also used in the independent Lean proof (prop_5_14_entry; tex:705-708).
+prop514_kks	932; 939-940	NC	The bound for n=4,5,6 follows from the computation of KKS16, which covers binary automata with at most 12 states.	NC published computation; the bound is independently proved by prop_5_14.
+rem_5_15	943-952	NUM	Berlinkov's Cor. 1 gives n^2-n+1, n^2, n^2+n-1; level count alone gives n(n-1); every synchronizing n >= 7 automaton with a positive integer stationary vector, alpha(Q)-max alpha <= n: rt <= n^2-3n+8 (SC by Lemma 2.1); both inequalities rt <= n^2-3n+8 <= (n-1)^2 apply to integer classes {2,k} over every alphabet	ROW rem_5_15_berlinkov, rem_5_15_L, rem_5_15_level, rem_5_15_general, rem_5_15_2k, cor_5_15_comparison, cor_5_15_2k_bound, cor_5_15_mass, cor_5_15_levels
+cor_5_15_mass	951	STEP	In class {2,k}, alpha(Q) minus its maximum is n+k−max(2,k) ≤ n.	ROW cor_5_15_mass
+cor_5_15_levels	950	STEP	For the extension process from a state of maximum weight, the visited proper weights lie in the indicated interval; J ≤ total minus maximum ≤ n.	ROW cor_5_15_levels
+rem515_nc	950	NC	the case n >= 7 uses only these properties	NC route words (its content is rem_5_15_general)
+sec6_open	956-960	NC	Families (a) all witnesses have an excluded configuration, (b) no witness satisfies a listed condition, and (c) degree at least 3.	NC statement of open problems; the parenthesis = SAME rem_5_15_2k
+sec6_three	749-751	TEXT	The three excluded configurations are valid and have the stated classes.	ROW sec6_three_configs (kernel decide)
+sec6_kks	962	NC	only n >= 13 is open (KKS16)	NC another paper's computation
+sec6_circular	Section 6	SUPPORT	A circular automaton has one of the three excluded configurations; text 4.40 no longer prints this.	ROW sec6_some_circular
+sec6_joint	970	TEXT	in these three, Lemma 5.10 still bounds the cost of the aligned sets	SAME lem_5_10_a, lem_5_10_b (no configuration hypothesis)
+sec6_missing	970-971	NC	what is missing is a bound for the other patterns	NC commentary
+sec6_berl	971-972	NC	Berlinkov's bound is the best recorded for fixed d	NC other papers
+sec6_cubic	972-973	TEXT	for d close to n the cubic bounds are smaller	ROW sec6_cubic_smaller (at d = n-1: (n^3-n)/6 < 2^(n-1)*2*(n-1))
+sec6_qe	973	TEXT	every automaton with n >= 2 states is quasi-Eulerian of degree n-1 (E = {s})	ROW sec6_qe_n_minus_1 (carries a nonempty alphabet: AUDIT_NOTES (c) 1)
+question	975-978	NC	Question 6.1	NC a question
+sec6_answer	980	TEXT	Theorem 3.1 answers the second question when one of the two values is taken at a single state	ROW sec6_thm31_answers
+ack_bib	982-1021	NC	acknowledgments, bibliography	NC no mathematical claim

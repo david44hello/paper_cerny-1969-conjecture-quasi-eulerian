@@ -2,10 +2,8 @@
 
 Dave Goel. Copyright (C) Dave Goel 2026--now. All rights reserved.
 
-The paper: https://doi.org/10.5281/zenodo.23956693
-
-The proofs of Lemma 5.8 (with Table 1) and of Proposition 5.14 for 4 ≤ n ≤ 6 rest on the computation below; the other checks
-confirm the examples. Numbering as in the paper.
+The program checks the enumeration of Lemma 5.8 (with Table 1), Proposition 5.14 for 4 ≤ n ≤ 6, and the examples. Numbering
+as in the paper.
 
 ## Directions to Reproduce
 
@@ -16,7 +14,8 @@ python3 quasi_eulerian_checks.py > out.txt && cmp out.txt quasi_eulerian_checks_
 ```
 
 You see nothing from `cmp` (the new output equals the stored one), and the last line of `out.txt` is `ALL PASS`. It takes about
-5 seconds on one thread; any failed check makes the program exit with status 1. All arithmetic is exact (Python fractions).
+5 seconds on one thread; any failed check makes the program exit with status 1. All arithmetic is exact (Python fractions),
+except the floating-point residuals of Example 3.6.
 
 | Statement | What the program checks | Output |
 |---|---|---|

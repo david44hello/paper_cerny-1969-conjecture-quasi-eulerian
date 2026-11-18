@@ -1,0 +1,1 @@
+# Rows allowed to stay "not proved yet" (one row name per line). None: every row of Paper/Statements.lean is proved.

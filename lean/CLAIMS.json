@@ -1,0 +1,1679 @@
+{
+ "rows": [
+  {
+   "name": "intro_rt_cerny",
+   "tex": "65-67, 547",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "intro_deg1_nonsc",
+   "tex": "135",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "intro_deg1_in_thm31",
+   "tex": "138-139",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "intro_statd",
+   "tex": "93-94",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "intro_incomparable",
+   "tex": "157, 561",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "ex_3_5_one_cluster",
+   "tex": "561",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "intro_ex4_qe1",
+   "tex": "561",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "intro_ex4_reset",
+   "tex": "561",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "intro_ex4_cycles",
+   "tex": "561",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "meth_raise_enlarge_or_move",
+   "tex": "191-192",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "meth_move_changes",
+   "tex": "195",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec2_act_append",
+   "tex": "228",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec2_pre_append",
+   "tex": "229-230",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec2_mem_pre",
+   "tex": "311",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec2_ext_method",
+   "tex": "232-235",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec2_Mw_mul",
+   "tex": "238-239",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec2_Mw_one",
+   "tex": "239",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec2_Mw_ind",
+   "tex": "239",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec2_wt_Mw",
+   "tex": "240",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec2_M_stochastic",
+   "tex": "245",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec2_outweight",
+   "tex": "253, 574",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "eq_2_1",
+   "tex": "248-250",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec2_inW_sum",
+   "tex": "253",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec2_one_stationary_iff",
+   "tex": "253-254",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_2_1",
+   "tex": "256-259",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_2_2_a",
+   "tex": "268-272",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_2_2_b",
+   "tex": "273-274",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_2_2_last",
+   "tex": "276-278",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec2_cost_bounds",
+   "tex": "303-306",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_2_3_in",
+   "tex": "313",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_2_3_out",
+   "tex": "313",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_2_3_fin",
+   "tex": "314",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_2_4",
+   "tex": "327-330",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_2_4_two",
+   "tex": "330",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_2_4_six",
+   "tex": "330",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "eq_2_2",
+   "tex": "336-341",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_2_4_i",
+   "tex": "343-346",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_2_4_ii",
+   "tex": "348-355",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "rem_2_5_direct",
+   "tex": "367-369",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "thm_3_1",
+   "tex": "378-382",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec3_alpha_formula",
+   "tex": "386-387",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_3_2_a",
+   "tex": "394",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_3_2_b",
+   "tex": "395-397",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_3_2_c",
+   "tex": "398-400",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec3_expensive_cheap",
+   "tex": "408-410",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "method_pair_order",
+   "tex": "194-196",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "prop_3_3",
+   "tex": "412-414",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "thm_3_1_merging",
+   "tex": "427",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "thm_3_1_case_t1",
+   "tex": "429-431",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "thm_3_1_case_A",
+   "tex": "433-434",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "thm_3_1_case_int",
+   "tex": "436-439, 201-202",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "thm_3_1_case_nonint",
+   "tex": "441-457",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "thm_3_1_nonint_pair",
+   "tex": "199-201, 452-455",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "meth_nonint_steps",
+   "tex": "199-200, 452-455",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "rem_3_4_L",
+   "tex": "463-465",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "rem_3_4_vals",
+   "tex": "465-466",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "rem_3_4_level_count",
+   "tex": "466-468",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "rem_3_4_w_eq_L",
+   "tex": "472",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "rem_3_4_w",
+   "tex": "472-474",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "thm_4_1",
+   "tex": "501-503",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec4_inW_xs",
+   "tex": "506-510",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_4_2",
+   "tex": "512-514",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "thm_4_1_case_sc",
+   "tex": "523-527",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "thm_4_1_case_z1",
+   "tex": "529-535",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "thm_4_1_case_y0",
+   "tex": "537-543",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "thm_4_1_cn_witness",
+   "tex": "545-547, 86",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "thm_4_1_attained",
+   "tex": "503",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "rem_4_3_cn_zyt",
+   "tex": "551",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "rem_4_3_attained",
+   "tex": "551-552",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "rem_4_3_K0",
+   "tex": "552",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "rem_4_3_chain",
+   "tex": "552-556",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "fig3_c4_chain",
+   "tex": "197, 8-15",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "rem_4_3_enlarges_iff",
+   "tex": "558",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "rem_4_3_images",
+   "tex": "559",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "rem_4_3_t2_example",
+   "tex": "557-561",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "rem_4_3_not_extend",
+   "tex": "556-557",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "thm_5_1",
+   "tex": "568-571",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec5_unique_min_closed",
+   "tex": "574-576",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec5_restrict",
+   "tex": "576-578",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_5_2",
+   "tex": "580-582",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_5_3",
+   "tex": "590-592",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_5_3_push_word",
+   "tex": "595-599, 208-209",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "arith_r_sq",
+   "tex": "613-614, 209, 627",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec5_two_state_rt",
+   "tex": "619",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "rem_5_4_a",
+   "tex": "624-627",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "rem_5_4_reduction",
+   "tex": "627-630",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "rem_5_4_d2",
+   "tex": "630",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_5_5",
+   "tex": "638-643",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_5_5_unique",
+   "tex": "653-654",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "prop_5_6",
+   "tex": "659-662",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "prop_5_6_sc",
+   "tex": "662",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "prop_5_6_quot_hyp",
+   "tex": "209-211, 666-676",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec54_small_n",
+   "tex": "682-683",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec54_process_exists",
+   "tex": "776-781, 441-443",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec54_process_props",
+   "tex": "776-781",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "rem_5_15_general",
+   "tex": "946-950",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "rem_5_15_2k",
+   "tex": "947-951",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "cor_5_15_levels",
+   "tex": "950",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "cor_5_15_mass",
+   "tex": "951",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "cor_5_15_comparison",
+   "tex": "946-950",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "cor_5_15_2k_bound",
+   "tex": "946-950",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec6_qe_n_minus_1",
+   "tex": "973",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec6_thm31_answers",
+   "tex": "980",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec6_cubic_smaller",
+   "tex": "972-973",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "prop_5_12_sum",
+   "tex": "854",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "rem_5_15_berlinkov",
+   "tex": "943-944",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "rem_5_15_L",
+   "tex": "943",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec54_405",
+   "tex": "712-714",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_5_8",
+   "tex": "716-719",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "table_2_configs",
+   "tex": "10-23, 745",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_5_8_delta",
+   "tex": "4-9, 719",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_5_8_target_counts",
+   "tex": "8-10, 719",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_5_8_determinants",
+   "tex": "4-7, 719",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_5_8_renaming_action",
+   "tex": "9-11, 719",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "table_1",
+   "tex": "726-745",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec54_block_list",
+   "tex": "760-762",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "thm_5_9_remaining_six",
+   "tex": "762-764",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "count_46_of_49",
+   "tex": "51",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "count_12_classes",
+   "tex": "124",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec6_three_configs",
+   "tex": "749-751",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "prop_5_11_config",
+   "tex": "812-815",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "prop_5_11_merging_remark",
+   "tex": "826",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "prop_5_12_config",
+   "tex": "844-848",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "prop_5_13_config",
+   "tex": "871-876",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_5_7_a",
+   "tex": "687",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_5_7_b",
+   "tex": "688-691",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_5_7_edge_count",
+   "tex": "700-705",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec54_nu_ne_00",
+   "tex": "713-714",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec54_config_valid",
+   "tex": "721-722",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "thm_5_9",
+   "tex": "747-753",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec54_alpha_formula",
+   "tex": "769-771",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec54_change_depends_on_pattern",
+   "tex": "783-784",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec54_good_cost1",
+   "tex": "784-786",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec54_aligned_not_good",
+   "tex": "786-787",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_5_10_a",
+   "tex": "790-791",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_5_10_b",
+   "tex": "791-792",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_5_10_compl_good",
+   "tex": "802-803",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "prop_5_11",
+   "tex": "806-808",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "prop_5_11_good",
+   "tex": "817-819",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "prop_5_12",
+   "tex": "835-841",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "prop_5_12_first_levels",
+   "tex": "857-863",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "prop_5_12_levels",
+   "tex": "851-855",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "prop_5_12_sharp",
+   "tex": "851-855",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "prop_5_12_good",
+   "tex": "845-849",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "prop_5_13",
+   "tex": "866-868",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "prop_5_13_half",
+   "tex": "890-898",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "prop_5_13_steps",
+   "tex": "878-886, 12-20",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "prop_5_13_missing_pair",
+   "tex": "896",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "table_3_half",
+   "tex": "12-15, 888",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "table_3_three_halves",
+   "tex": "17-20, 888",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "prop_5_14",
+   "tex": "912-915",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "prop_5_14_big",
+   "tex": "915-916",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "prop_5_14_entry",
+   "tex": "705-708",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "prop_5_14_max",
+   "tex": "932",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "rem_5_15_level",
+   "tex": "944",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "sec6_some_circular",
+   "tex": "",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "ex_3_5_stationary",
+   "tex": "478-481",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "ex_3_5_in_thm31",
+   "tex": "481",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "ex_3_5_inedges",
+   "tex": "482-483",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "ex_3_5_not_qe12",
+   "tex": "481-484",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "ex_3_5_rt",
+   "tex": "484-485",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "ex_3_6_x2",
+   "tex": "492-494",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "ex_3_6_x1",
+   "tex": "494",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "ex_3_6_x0",
+   "tex": "494-495",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "ex_3_6_irrational",
+   "tex": "495-496",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "ex_3_6_sync",
+   "tex": "495",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  },
+  {
+   "name": "lem_2_4_zeroOne",
+   "tex": "358-360",
+   "status": "PROVED",
+   "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+   ]
+  }
+ ],
+ "totals": {
+  "PROVED": 167,
+  "PROVED FROM CITED": 0,
+  "CITED": 0,
+  "not proved yet": 0,
+  "FAIL": 0
+ },
+ "cited": []
+}

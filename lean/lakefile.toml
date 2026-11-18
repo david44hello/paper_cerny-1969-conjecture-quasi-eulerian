@@ -1,0 +1,18 @@
+# The Cerny (1969) conjecture for quasi-Eulerian automata: Lean 4 v4.35.0 + Mathlib.
+# Author: Dave Goel. Copyright (C) Dave Goel 2026--now.
+# Version 0.01, 2026-11-05.
+name = "CernyQELean"
+version = "0.1.0"
+defaultTargets = ["CernyQE"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.35.0"
+
+[[lean_lib]]
+name = "CernyQE"
+# CernyQE and every module under CernyQE/; backups live only in the root versions/ folder, never built.
+globs = ["CernyQE", "CernyQE.+"]
+leanOptions = { autoImplicit = false, relaxedAutoImplicit = false }
+weakLeanArgs = ["-j1"]
