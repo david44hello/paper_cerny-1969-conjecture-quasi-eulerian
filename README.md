@@ -1,5 +1,7 @@
 # The Černý (1969) conjecture holds for quasi-Eulerian automata of degree one
 
+The paper: https://doi.org/10.5281/zenodo.23956693
+
 What is in this repository:
 
 - [lean/](lean/) - the Lean 4 proof of the paper's results. It takes no result of another paper and no computer check as given. Its README says how to verify it.
